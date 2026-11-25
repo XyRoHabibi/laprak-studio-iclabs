@@ -1,0 +1,6 @@
+{
+  "agent": {
+    "nama": "Claude Code",
+    "perintah": ["claude", "{prompt}"]
+  }
+}

@@ -1,0 +1,21 @@
+# data pribadi
+identitas.json
+
+# folder kerja (berisi identitas, modul praktikum, dan laprak)
+kerja/*/*
+!kerja/*/.gitkeep
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude Code (pengaturan pribadi)
+.claude/settings.local.json
+
+# sistem
+Thumbs.db
+.DS_Store
+~$*.docx

@@ -1,0 +1,17 @@
+services:
+  studio:
+    build:
+      context: .
+      args:
+        AGENT_NPM: ${AGENT_NPM:-}
+    image: laprak-studio
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app                  # kerja/, identitas.json, dan hasil PDF tetap di komputer kamu
+      - agent-home:/root        # login & pengaturan agent di dalam container tetap tersimpan
+    stdin_open: true
+    tty: true
+
+volumes:
+  agent-home:

@@ -1,0 +1,55 @@
+{
+  "title": "Evaluasi Praktikum 1",
+  "sampul": {"jenis": "pp", "nomor": 1, "tanggal": "01 Oktober 2026"},
+  "intro": [
+    {"t": "para", "text": "Contoh laprak untuk mencoba Laprak Studio. Isi ini bukan soal praktikum asli."},
+    {"t": "label", "text": "Soal Evaluasi", "gap": true}
+  ],
+  "questions": [
+    {
+      "num": "1.",
+      "text": "Jelaskan fungsi cout, cin, dan endl pada program C++.",
+      "parts": [
+        {"t": "label", "text": "Jawab:"},
+        {"t": "para", "bullet": "-", "text": "cout : menampilkan teks atau nilai ke layar."},
+        {"t": "para", "bullet": "-", "text": "cin : membaca masukan dari keyboard ke dalam variabel."},
+        {"t": "para", "bullet": "-", "text": "endl : pindah ke baris baru setelah teks ditampilkan."}
+      ]
+    },
+    {
+      "num": "2.",
+      "text": "Buat program yang menampilkan nama dan NIM.",
+      "parts": [
+        {"t": "label", "text": "Jawab:"},
+        {"t": "code", "lines": [
+          [0, "#include <iostream>"],
+          [0, "using namespace std;"],
+          [0, ""],
+          [0, "int main() {"],
+          [1, "cout << \"Nama|: Nama Mahasiswa\" << endl;"],
+          [1, "cout << \"NIM|: 130202600XX\" << endl;"],
+          [1, "return 0;"],
+          [0, "}"]
+        ]}
+      ]
+    },
+    {
+      "num": "3.",
+      "text": "Lengkapi tabel tracing untuk perulangan for (int i = 1; i <= 3; i++) jumlah += i; dengan jumlah awal 0.",
+      "parts": [
+        {"t": "label", "text": "Jawab:"},
+        {"t": "table", "widths": [0.2, 0.3, 0.3], "header": ["i", "jumlah sebelum", "jumlah sesudah"],
+         "rows": [["1", "0", "1"], ["2", "1", "3"], ["3", "3", "6"]]}
+      ]
+    },
+    {
+      "num": "4.",
+      "text": "Gambarkan hierarchy chart program kasir sederhana.",
+      "parts": [
+        {"t": "label", "text": "Jawab:"},
+        {"t": "tree", "nodes": [[0, "Program Kasir"], [1, "Input Belanja"], [2, "Input Nama Barang"], [2, "Input Harga"],
+                                [1, "Hitung Total"], [1, "Tampilkan Struk"]]}
+      ]
+    }
+  ]
+}

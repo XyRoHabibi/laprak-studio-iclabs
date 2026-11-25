@@ -1,0 +1,16 @@
+{
+  "nama": "Nama Mahasiswa",
+  "stambuk": "130202600XX",
+  "pp": {
+    "frekuensi": "TI_PP-X (AX)",
+    "dosen": "Nama Dosen PP",
+    "asisten1": "Nama Asisten 1",
+    "asisten2": "Nama Asisten 2"
+  },
+  "alpro": {
+    "frekuensi": "TI_ALPRO-X (AX)",
+    "dosen": "Nama Dosen Alpro",
+    "asisten1": "Nama Asisten 1",
+    "asisten2": "Nama Asisten 2"
+  }
+}
